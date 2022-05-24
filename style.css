@@ -67,7 +67,7 @@ a {
     padding: 7px 26px;
     text-align: center;
     color: white;
-    background: #3882F6;;
+    background: #3882F6;
     border-radius: 10px;
     margin-top: 3px;
 }
@@ -119,4 +119,31 @@ img{
     font-weight: lighter;
     color:#1F2937;
     text-align:center;
+}
+
+.footer {
+    padding: 10px 50px;
+}
+.inside {
+    background: #3882F6;
+    display: flex;
+    margin:30px;
+    padding: 50px;
+    justify-content: space-between;
+    padding-left:150px;
+    padding-right: 150px;
+    color: white;
+    font-size: 24px;
+}
+
+.inside p{
+    margin:0;
+}
+
+.footer .btn{
+  border: 2px solid white;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  color:white;
 }
