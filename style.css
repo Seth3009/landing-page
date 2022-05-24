@@ -53,7 +53,8 @@ a {
     font-size: 48px;
     font-weight: bold;
 }
-p {
+
+.desc, .title {
     margin:3px;
     color: #F9FAF8;
 }
@@ -79,3 +80,30 @@ img{
     height:auto;
 }
 
+
+
+.weapon {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.picture {
+    display: flex;
+    justify-content: center;
+    
+}
+.picture img:hover, .picture p:hover{
+    opacity: 0.5;
+}
+
+.picture img{
+    width:200px;
+    height: 200px;
+    border-radius: 8px;
+    gap:10px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.picture p{
+    text-align: center;
+}
